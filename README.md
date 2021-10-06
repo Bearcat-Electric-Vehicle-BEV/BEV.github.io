@@ -7,6 +7,7 @@ website hosted using github-pages
   - HTML, CSS, JS, VS Code
 
 Old Location of website: https://keerthi-sekar.github.io/BEV.github.io/index.html
+
 Temporary new location: https://bearcat-electric-vehicle-bev.github.io/BEV.github.io/
 
 ## Future Developers
