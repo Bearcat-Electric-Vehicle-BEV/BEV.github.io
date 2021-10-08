@@ -17,6 +17,10 @@ website is one made of purley text files (HTML, CSS and JS). No frameworks
 like Django, Flask, or NodeJs. These would require a server to run, and that 
 costs $$$ (AWS, Google Cloud, Blue Ocean, etc). 
 
+### Changing Domain
+If for whatever reason the domain name needs changed or the git-pages service
+needs stopped, this can be done in Settings->Pages and remove the domain name.
+
 ### Making Changes
 If you are tasked with making changes to the git repo the easiest way is to
 use githubs least known feature ... webpage vs code. Press '.' on the repo page
