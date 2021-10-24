@@ -10,6 +10,9 @@ Old Location of website: https://keerthi-sekar.github.io/BEV.github.io/index.htm
 
 New location: https://bearcat-electric-vehicle-bev.github.io/BEV.github.io/
 
+### Tasking
+https://trello.com/b/pw32U4jf/preseason
+
 ## Future Developers
 This website is hosted using git-pages. It's a free to use service from github 
 that allows you to host simple HTML based websites for free! A simple HTML 
