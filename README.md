@@ -47,5 +47,9 @@ the real website.
 python3 -m http.server
 ```
 
+#### For my fellow Linux/WSL fans (;
+```bash
+python3 -m http.server & &> /dev/null
+```
 
 
