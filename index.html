@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1 shrink-to-fit=no">
@@ -16,7 +15,19 @@
 
 <body>
 
-    <div class="pos-f-t">
+    <!-- MOBILE -->
+    <style type="text/css">
+        .mobileShow {display: none;}
+      
+        /* Smartphone Portrait and Landscape */
+        @media only screen
+          and (min-device-width : 320px)
+          and (max-device-width : 480px){ 
+            .mobileShow {display: inline;}
+        }
+    </style>
+
+    <div class="pos-f-t mobileShow">
       <div class="collapse" id="navbarToggleExternalContent">
         <div class="navbar navbar-light navbar-expand-lg bg-white clean-navbar">
             <div><a class="btn btn-primary bg-white border-white shadow-none" role="button" href="index.html" style="background: url(&quot;assets/img/tech/logo.png&quot;) center / contain no-repeat, rgba(0,123,255,0);width: 179px;height: 88px;"></a></div>
@@ -31,13 +42,37 @@
             </div>
         </div>
       </div>
-      </div>
     
       <nav class="navbar navbar-light bg-white">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </nav>
+    </div>
+         
+    <!-- DESKTOP -->
+    <style type="text/css">
+        /* .mobileHide { display: inline; } */
+      
+        /* Smartphone Portrait and Landscape */
+        @media only screen
+          and (min-device-width : 320px)
+          and (max-device-width : 480px){
+           .mobileHide { display: none;}
+        }
+      </style>
+
+    <div class="navbar navbar-light navbar-expand-lg bg-white clean-navbar mobileHide">
+        <div><a class="btn btn-primary bg-white border-white shadow-none" role="button" href="index.html" style="background: url(&quot;assets/img/tech/logo.png&quot;) center / contain no-repeat, rgba(0,123,255,0);width: 179px;height: 88px;"></a></div>
+        <div class="navbar" id="navcol-1">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item nav-justified"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item nav-justified"><a class="nav-link" href="design.html">Design</a></li>
+                <li class="nav-item nav-justified"><a class="nav-link" href="about-us.html">Meet the Team</a></li>
+                <li class="nav-item nav-justified"><a class="nav-link" href="sponsors.html">Sponsors</a></li>
+                <li class="nav-item nav-justified"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </div>
     </div>
 
     <main class="page landing-page">
