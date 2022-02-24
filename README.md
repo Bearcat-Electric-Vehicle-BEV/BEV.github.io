@@ -42,7 +42,7 @@ There are many ways to do this, however I have found in my experience using pyth
 simple http server to be the simplest. Python has a built in simple http.server that
 can be used to host simple websites on localhost. This can be used to make changes to
 the files in a text editor and see them live in your browser without making changes to 
-the real website. 
+the real website. The local web-page is at 127.0.0.1:8000
 
 #### Start Simple http.server
 ```bash
