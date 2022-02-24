@@ -55,4 +55,9 @@ python3 -m http.server
 python3 -m http.server & &> /dev/null
 ```
 
+## Learning Resources
+  - <a href="https://learngitbranching.js.org/">Learn Git Branching</a>
+  - <a href="https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work">SSH Turtorial</a>
+  - <a href="https://realpython.com/">Real Python Turtorials</a>
+
 
